@@ -32,6 +32,14 @@
         tools:layout_editor_absoluteY="112dp" />
 
     <TextView
+        android:id="@+id/req_err_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="?android:attr/colorError"
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/request_label2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,7 +50,7 @@
         tools:layout_editor_absoluteY="231dp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/sender_email"
         android:layout_width="313dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -53,10 +61,20 @@
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="287dp" />
 
+    <TextView
+        android:id="@+id/req_err_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="?android:attr/colorError"
+        android:textSize="18sp" />
+
     <Button
         android:id="@+id/submit_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="72sp"
-        android:text="Request" />
-</android.support.constraint.ConstraintLayout>
+        android:text="Request"
+        android:onClick="submitInformation"/>
+</LinearLayout>
+
