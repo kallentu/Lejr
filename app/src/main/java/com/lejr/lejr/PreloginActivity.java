@@ -1,7 +1,9 @@
 package com.lejr.lejr;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
@@ -31,5 +33,17 @@ public class PreloginActivity extends AppCompatActivity {
         MongoDatabase database = mongoClient.getDatabase("lejr");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prelogin);
+    }
+
+    // Starts up the register page
+    public void registerRedirect(View view) {
+        Intent intent = new Intent(this, RegisterActivity.class);
+        startActivity(intent);
+    }
+
+    // Starts up the login page
+    public void loginRedirect(View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
     }
 }

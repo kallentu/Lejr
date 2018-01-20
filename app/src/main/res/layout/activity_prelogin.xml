@@ -30,13 +30,19 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginHorizontal="20dp"
-            android:text="Register"/>
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="30dp"
+            android:text="Register"
+            android:onClick="registerRedirect"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginHorizontal="20dp"
-            android:text="Login "/>
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="30dp"
+            android:text="Login"
+            android:onClick="loginRedirect"/>
     </LinearLayout>
 </LinearLayout>
