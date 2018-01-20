@@ -15,9 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Requested Amount"
-        android:textSize="36sp"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="55dp" />
+        android:textSize="36sp"/>
 
     <EditText
         android:id="@+id/sending_amount"
@@ -27,16 +25,13 @@
         android:hint="$0.00"
         android:inputType="numberDecimal"
         android:textAlignment="center"
-        android:textSize="36sp"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="112dp" />
+        android:textSize="36sp"/>
 
     <TextView
         android:id="@+id/req_err_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:textColor="?android:attr/colorError"
         android:textSize="18sp" />
 
     <TextView
@@ -45,9 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48sp"
         android:text="Requesting From"
-        android:textSize="36sp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="231dp" />
+        android:textSize="36sp"/>
 
     <EditText
         android:id="@+id/sender_email"
@@ -57,16 +50,13 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
-        android:textSize="36sp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="287dp" />
+        android:textSize="36sp"/>
 
     <TextView
         android:id="@+id/req_err_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:textColor="?android:attr/colorError"
         android:textSize="18sp" />
 
     <Button
