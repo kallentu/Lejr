@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lejr.lejr.RequestActivity">
+
+    <TextView
+        android:id="@+id/request_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requesting From"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/request_label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requested Amount"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <EditText
+        android:id="@+id/sending_amount"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="$0.00"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="287dp" />
+</android.support.constraint.ConstraintLayout>
