@@ -20,6 +20,14 @@
         android:gravity="center_horizontal"
         android:layout_weight="1"/>
 
+    <Button
+        android:id="@+id/bypass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="BYPASS LOGIN"
+        android:onClick="bypass"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
