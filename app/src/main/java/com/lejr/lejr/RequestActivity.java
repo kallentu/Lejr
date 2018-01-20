@@ -25,7 +25,7 @@ public class RequestActivity extends AppCompatActivity {
             TextView amount_err = (TextView)findViewById(R.id.req_err_1);
             amount_err.setText("Receiving amount must be at least $0.01.");
         }
-        if(!Patterns.EMAIL_ADDRESS.matcher((EditText)((EditText) findViewById(R.id.sender_email)).getText().toString()).matches()){
+        if(!Patterns.EMAIL_ADDRESS.matcher(((EditText) findViewById(R.id.sender_email)).getText().toString()).matches()){
             TextView email_err = (TextView)findViewById(R.id.req_err_2);
             email_err.setText("Invalid email.");
         }
